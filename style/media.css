@@ -1,0 +1,116 @@
+@media (max-width: 1327px) {
+    .header-slogan {
+        margin-top: 0;
+        width: auto;
+    }
+    .hs-title {
+        font-size: 66px;
+    }
+}
+@media (max-width: 1127px) {
+    .tpiw-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 1040px) {
+    .location {
+        display: none;
+    }
+    .dwmw-info p {
+        font-size: 26px;
+    }
+    .ctwi-title {
+        font-size: 34px;
+    }
+    .ctwi-place {
+        font-size: 16px;
+    }
+    .ctwi-descrip {
+        font-size: 13px;
+    }
+}
+@media (max-width: 971px) {
+    .aw-activities {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 875px) {
+    .ctw-info {
+        padding: 30px;
+    }
+}
+@media (max-width: 800px) {
+    .dwmw-right {
+        margin-top: 20px;
+    }
+    .fwiw-left {
+        display: none;
+    }
+    .fwiw-right {
+        margin: auto;
+    }
+    .menu {
+        display: none;
+    }
+    .hs-title {
+        font-size: 36px;
+    }
+    .header-wrapper {
+        margin-top: 60px;
+    }
+    .ct-wrapper {
+        grid-template-columns: 1fr;
+    }
+} 
+@media (max-width: 671px) {
+    .aw-activities {
+        grid-template-columns: 1fr;
+    }
+    .tpiw-block {
+        grid-template-columns: 1fr;
+    }
+    .pw-title p, .aw-title p, .dw-title {
+        font-size: 34px;
+    }
+    .pw-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 530px) {
+    .tw-title p {
+        font-size: 34px;
+    }
+    main {
+        padding: 0 30px;
+    }
+    .hs-title {
+        line-height: 60px;
+    }
+}
+@media (max-width: 375px) {
+    .menu {
+        display: none;
+    }
+    .header-slogan {
+        padding: 15px;
+    }
+    .hs-title {
+        font-size: 26px;
+        margin: 0;
+    }
+    .hs-subtitle {
+        margin: 0;
+    }
+    .pw-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 800px) {
+    .dwm-wrapper {
+        display: grid;
+    }
+    .header-humburger {
+        display: none;
+    }
+}
