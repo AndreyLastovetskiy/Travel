@@ -33,12 +33,18 @@ require_once("db/db.php");
                     <li><a href="./view_country/view_all.php">Страны</a></li>
                     <li><a href="./tour/all_tour.php">Туры</a></li>
                 </ul>
-                <?php 
-                if(!isset($_COOKIE["id"])) { ?>
+                <?php if(!isset($_COOKIE["id"])) { ?>
                     <div class="signin-btns">
                         <ul class="sb-list">
                             <li class="sbl-item"><a href="./login/login.php" class="sbli-signin">Войти</a></li>
                             <li class="sbl-item"><a href="./registration/registration.php" class="sbli-signup">Регистрация</a></li>
+                        </ul>
+                    </div>
+                <?php } ?>
+                <?php if(isset($_COOKIE["id"])) { ?>
+                    <div class="signin-btns">
+                        <ul class="sb-list">
+                            <li class="sbl-item"><a href="./logout.php" class="sbli-signup">Выйти</a></li>
                         </ul>
                     </div>
                 <?php } ?>
